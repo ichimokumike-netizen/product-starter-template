@@ -27,3 +27,48 @@ This repository serves as the **Golden Template** for all new products in our or
 
 ## 🤖 For AI Agents
 If you are an AI assisting on this repo, **read `docs/SOP_00_AI_DIRECTIVES.md` immediately**.
+
+---
+
+## 📋 Appendix: README Template for New Apps
+*Copy the markup below and overwrite this `README.md` when you initialize your new product.*
+
+```markdown
+# [Product Name]
+*[One Line Value Proposition]*
+
+## 🚀 Overview
+[Product Name] is a [Type of App] that helps [Target User] solve [Pain Point] by [Solution].
+
+## 🛠 Tech Stack
+*   **Framework:** Next.js 16 (App Router)
+*   **Database:** Supabase (PostgreSQL)
+*   **Styling:** Tailwind CSS v3
+*   **Auth:** Supabase Auth (SSR)
+
+## ⚡ Getting Started
+
+### 1. Environment Setup
+Copy the example env file and fill in your Supabase credentials:
+bash
+cp .env.example .env.local
+
+### 2. Install Dependencies
+bash
+npm install
+
+### 3. Run Development Server
+bash
+npm run dev
+# Server running at http://localhost:3000
+
+## 🧪 Testing
+*   **Unit Tests:** `npm run test`
+*   **Security Audit:** `node scripts/security-audit.js`
+
+## 📘 Documentation
+This project follows strict SDLC protocols. See `docs/` for details:
+*   [Product Requirements](docs/PRODUCT_REQUIREMENTS.md)
+*   [Architecture](docs/ARCHITECTURE.md)
+*   [SDLC Protocol](docs/SOP_01_SDLC_PROTOCOL.md)
+```
